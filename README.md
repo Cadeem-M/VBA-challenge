@@ -1,5 +1,9 @@
 # VBA-challenge
 
+<p align="center">
+<img src="screenshots\Screenshot 2024-03-10 084434.png" width="500px">
+</p>
+
 ## Using VBA scripting to analyze generated stock market data
 In this challenge, I am trying to prepare a VBA script that will analyze a stock's performace after a year; given its Ticker, Dates it fluctuated, the Opening, High, Low, and Closing values of said stock as well as, the Stock volume on the given date.  I would have successfully completed this challenge when my code is able to run accross multiple spreadsheets and provide the analysis of all stocks provided.
 
@@ -11,9 +15,18 @@ The data is presented such that the first 7 coloums are the Ticker, the Dates it
 
 ticker      date	   open 	high	low	    close	    vol   (making headers is a challenge here, but these are excel headers for figures below)
 
+
 AAB	       20180102   24.44	    24.56	24.44	24.47	    261879
 
+<p align="center">
+<img src="screenshots\Screenshot 2024-03-10 075545.png" width="500px">
+</p>
+
 By pressing the provided "Stock_Analysis" button in the 2018 worksheet, the code should provide a breakdown of every Ticker's performance at the end of the year as well as, which Tickers had the Greatest % increase in value, Greatest % decrease value, and Greatest total volume at the end of the year - across all worksheets.
+
+<p align="center">
+<img src="screenshots\Screenshot 2024-03-10 080313.png" width="500px">
+</p>
 
 ## Whats under the hood?
 Using a for loop, my code sets out to provide the difference between a stock's opening and closing value as well as, provide the percentage change in said stock. It does this by storing a ticker's opening value in a variable. Then, the code loops until it finds its the last interation of a Tickers value i.e. the closing value and it will calculate the difference in value and the percentage changes. Along this recursive loop, a variable, vol, sums up all stock volume from the provided dates for the Ticker. Here is sample code:
