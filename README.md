@@ -1,7 +1,7 @@
 # VBA-challenge
 
 <p align="center">
-<img src="screenshots\Screenshot 2024-03-10 084434.png" width="500px">
+<img src="screenshots\Screenshot 2024-03-10 084434.png" width="800px">
 </p>
 
 ## Using VBA scripting to analyze generated stock market data
@@ -13,19 +13,14 @@ In the folder VBA-challenge, open the excel document:
 ---> Copy of Multiple_year_stock_data       
 The data is presented such that the first 7 coloums are the Ticker, the Dates it fluctuated, the Opening value, the High, the Low, and the Closing values of the stock. The final coloumn is the total Stock volume on the given date. Here's an example:
 
-ticker      date	   open 	high	low	    close	    vol   (making headers is a challenge here, but these are excel headers for figures below)
-
-
-AAB	       20180102   24.44	    24.56	24.44	24.47	    261879
-
 <p align="center">
-<img src="screenshots\Screenshot 2024-03-10 075545.png" width="500px">
+<img src="screenshots\Screenshot 2024-03-10 075545.png" width="700px">
 </p>
 
 By pressing the provided "Stock_Analysis" button in the 2018 worksheet, the code should provide a breakdown of every Ticker's performance at the end of the year as well as, which Tickers had the Greatest % increase in value, Greatest % decrease value, and Greatest total volume at the end of the year - across all worksheets.
 
 <p align="center">
-<img src="screenshots\Screenshot 2024-03-10 080313.png" width="500px">
+<img src="screenshots\Screenshot 2024-03-10 080313.png" width="700px">
 </p>
 
 ## Whats under the hood?
